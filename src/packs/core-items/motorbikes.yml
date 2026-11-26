@@ -1,0 +1,36 @@
+_id: espVehMotorbike0
+_key: '!items!espVehMotorbike0'
+name: Motorbikes
+type: tool
+img: icons/environment/settlement/ship.webp
+folder: espFolderVehicle
+sort: 1200000
+system:
+  description:
+    value: <p>Proficiency with motorcycles of every kind.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: motorbikes
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  type:
+    value: vehicle
+    baseItem: motorbikes
+  ability: dex
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

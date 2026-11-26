@@ -1,0 +1,39 @@
+_id: espToolHacking00
+_key: '!items!espToolHacking00'
+name: Hacking Tools
+type: tool
+img: modules/espionage-5e/icons/program.svg
+folder: espFolderTools00
+sort: 800000
+system:
+  description:
+    value: >-
+      <p>The software suite and know-how used to attack, bypass and modify operating systems.
+      Proficiency adds to checks made with hacking tools and hacking actions; Infotech proficiency
+      does not.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: hacking
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  type:
+    value: software
+    baseItem: hacking
+  ability: int
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

@@ -1,0 +1,38 @@
+_id: espVehTanks00000
+_key: '!items!espVehTanks00000'
+name: Tanks
+type: tool
+img: icons/environment/settlement/ship.webp
+folder: espFolderVehicle
+sort: 1500000
+system:
+  description:
+    value: >-
+      <p>Proficiency with tanks and tracked armored vehicles, including their gunnery and command
+      positions.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: tanks
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  type:
+    value: vehicle
+    baseItem: tanks
+  ability: dex
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

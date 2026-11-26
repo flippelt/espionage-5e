@@ -1,0 +1,36 @@
+_id: espToolDisguise0
+_key: '!items!espToolDisguise0'
+name: Disguise Kit
+type: tool
+img: icons/equipment/head/mask-carved-bird-grey-pink.webp
+folder: espFolderTools00
+sort: 100000
+system:
+  description:
+    value: <p>Makeup, prosthetics, wigs and props for building a visual disguise.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: disguise
+  quantity: 1
+  weight:
+    value: 3
+    units: lb
+  price:
+    value: 150
+    denomination: gp
+  rarity: ''
+  type:
+    value: kit
+    baseItem: disguise
+  ability: cha
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

@@ -1,0 +1,45 @@
+name: CI
+
+# Validates the editable YAML pack sources and proves the module builds.
+# Nothing is published here — see release.yml.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # No dependency needs a lifecycle script (classic-level ships prebuilds).
+      - run: npm ci --ignore-scripts
+
+      - name: Syntax-check module scripts
+        run: for f in $(find scripts -name '*.mjs'); do node --check "$f"; done
+
+      - name: Validate lang JSON
+        run: for f in lang/*.json; do node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))"; done
+
+      - name: Validate, pack and zip
+        run: npm run build
+
+      # Informative only: dev-only advisories must not block unrelated PRs.
+      - name: Audit (informative)
+        continue-on-error: true
+        run: npm audit --audit-level=high

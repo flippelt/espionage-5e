@@ -1,0 +1,38 @@
+_id: espToolElectric0
+_key: '!items!espToolElectric0'
+name: Electrician's Tool Bag
+type: tool
+img: icons/commodities/tech/cog-steel.webp
+folder: espFolderTools00
+sort: 200000
+system:
+  description:
+    value: >-
+      <p>Testers, wire and hand tools for modifying and repairing electrical equipment and
+      wiring.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: electrician
+  quantity: 1
+  weight:
+    value: 8
+    units: lb
+  price:
+    value: 300
+    denomination: gp
+  rarity: ''
+  type:
+    value: kit
+    baseItem: electrician
+  ability: int
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

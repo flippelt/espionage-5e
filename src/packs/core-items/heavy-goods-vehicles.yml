@@ -1,0 +1,36 @@
+_id: espVehHGV0000000
+_key: '!items!espVehHGV0000000'
+name: Heavy Goods Vehicles
+type: tool
+img: icons/environment/settlement/ship.webp
+folder: espFolderVehicle
+sort: 1400000
+system:
+  description:
+    value: <p>Proficiency with trucks, buses and other heavy road vehicles.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: hgv
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  type:
+    value: vehicle
+    baseItem: hgv
+  ability: dex
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+*.zip
+# compiled packs are built in CI from src/packs
+/packs/
+/dist/

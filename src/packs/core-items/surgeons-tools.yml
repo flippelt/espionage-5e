@@ -1,0 +1,36 @@
+_id: espToolSurgeon00
+_key: '!items!espToolSurgeon00'
+name: Surgeon's Tools
+type: tool
+img: icons/tools/hand/hammer-cobbler-steel.webp
+folder: espFolderTools00
+sort: 1000000
+system:
+  description:
+    value: <p>Scalpels, clamps and sutures for operating on a patient.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: surgeon
+  quantity: 1
+  weight:
+    value: 5
+    units: lb
+  price:
+    value: 100
+    denomination: gp
+  rarity: ''
+  type:
+    value: kit
+    baseItem: surgeon
+  ability: wis
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

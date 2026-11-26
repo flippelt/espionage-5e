@@ -1,0 +1,36 @@
+_id: espToolForgery00
+_key: '!items!espToolForgery00'
+name: Forgery Kit
+type: tool
+img: icons/tools/scribal/ink-quill-red.webp
+folder: espFolderTools00
+sort: 600000
+system:
+  description:
+    value: <p>Papers, inks, stamps and a printer for forging documents and identification.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: forgery
+  quantity: 1
+  weight:
+    value: 5
+    units: lb
+  price:
+    value: 200
+    denomination: gp
+  rarity: ''
+  type:
+    value: kit
+    baseItem: forgery
+  ability: dex
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

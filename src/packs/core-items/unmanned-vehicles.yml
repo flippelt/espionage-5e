@@ -1,0 +1,36 @@
+_id: espVehUnmanned00
+_key: '!items!espVehUnmanned00'
+name: Unmanned Vehicles
+type: tool
+img: icons/environment/settlement/ship.webp
+folder: espFolderVehicle
+sort: 1900000
+system:
+  description:
+    value: <p>Proficiency with remotely piloted drones, UAVs and UGVs.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: unmanned
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  type:
+    value: vehicle
+    baseItem: unmanned
+  ability: int
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

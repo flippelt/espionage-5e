@@ -1,0 +1,36 @@
+_id: espToolThieves00
+_key: '!items!espToolThieves00'
+name: Thieves' Tools
+type: tool
+img: icons/tools/hand/lockpicks-steel-grey.webp
+folder: espFolderTools00
+sort: 1100000
+system:
+  description:
+    value: <p>Picks, tension wrenches, shims and bypass tools for locks, restraints and break-ins.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: thief
+  quantity: 1
+  weight:
+    value: 1
+    units: lb
+  price:
+    value: 100
+    denomination: gp
+  rarity: ''
+  type:
+    value: kit
+    baseItem: thief
+  ability: dex
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

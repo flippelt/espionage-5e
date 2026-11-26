@@ -1,0 +1,152 @@
+{
+  "ESPIONAGE5E": {
+    "Skill": {
+      "Espionage": "Espionage",
+      "Infiltration": "Infiltration",
+      "Infotech": "Infotech",
+      "Mechanics": "Mechanics",
+      "Tactics": "Tactics"
+    },
+    "Hacking": {
+      "Label": "Hacking",
+      "Progression": "Hacker"
+    },
+    "Caliber": {
+      "Action": "Hacking Action",
+      "1": "Caliber 1",
+      "2": "Caliber 2",
+      "3": "Caliber 3",
+      "4": "Caliber 4",
+      "5": "Caliber 5",
+      "Unused": "Unused",
+      "Gadget1": "Caliber 1",
+      "Gadget2": "Caliber 2",
+      "Gadget3": "Caliber 3",
+      "Gadget4": "Caliber 4",
+      "Gadget5": "Caliber 5",
+      "Prototype": "Prototype"
+    },
+    "ProgramType": {
+      "BruteForce": "Brute-Force Attack",
+      "Encryption": "Encryption",
+      "Keylogger": "Keylogger",
+      "Rootkit": "Rootkit",
+      "Scanner": "Scanner",
+      "Spyware": "Spyware",
+      "Malware": "Malware",
+      "Firewall": "Firewall",
+      "HackingAction": "Hacking Action"
+    },
+    "Settings": {
+      "SlotsShortRest": {
+        "Name": "Executable slots free up on a short rest",
+        "Hint": "Executable slots are occupied while a program runs rather than spent. When enabled, a short rest frees every slot (all programs closed). A long rest always does."
+      },
+      "EnforceLegacy": {
+        "Name": "Use the 2014 rules",
+        "Hint": "Switch the dnd5e rules version to Legacy (2014) when the world loads, since the game is built on the 2014 rules."
+      }
+    },
+    "Notifications": {
+      "LegacyRules": "Espionage 5e switched the dnd5e rules version to Legacy (2014). Reload the world to apply it."
+    },
+    "Weapon": {
+      "Type": {
+        "SimpleMelee": "Simple Melee",
+        "TraditionalMelee": "Traditional Melee",
+        "SimpleRanged": "Simple Ranged",
+        "MilitaryRanged": "Military Ranged",
+        "Heavy": "Heavy Weapon",
+        "Explosive": "Explosive",
+        "VehicleMounted": "Vehicle-Mounted"
+      },
+      "Prof": {
+        "SimpleMelee": "Simple Melee Weapons",
+        "TraditionalMelee": "Traditional Melee Weapons",
+        "SimpleRanged": "Simple Ranged Weapons",
+        "MilitaryRanged": "Military Ranged Weapons",
+        "Heavy": "Heavy Weapons",
+        "Explosive": "Explosives",
+        "Grenade": "Grenades"
+      }
+    },
+    "Property": {
+      "ArmorPiercing": "Armor Piercing",
+      "AntiAir": "Anti-Air",
+      "Blast": "Blast",
+      "BurstFire": "Burst Fire",
+      "FullAuto": "Full Auto",
+      "Garrote": "Garrote",
+      "Guided": "Guided",
+      "Mounted": "Mounted",
+      "Spread": "Spread",
+      "Taser": "Taser",
+      "ThrownExplosive": "Thrown (Explosive)",
+      "Suppressed": "Suppressed"
+    },
+    "Tool": {
+      "Type": {
+        "Kit": "Kit",
+        "Software": "Software"
+      }
+    },
+    "Ammo": {
+      "Simple": "Clip (Simple)",
+      "Military": "Clip (Military)",
+      "Heavy": "Clip (Heavy)"
+    },
+    "Currency": {
+      "Dollar": "Dollars",
+      "DollarAbbr": "$"
+    },
+    "Damage": {
+      "Electrical": "Electrical",
+      "Toxic": "Toxic",
+      "Coding": "Coding",
+      "Radiation": "Radiation"
+    },
+    "Language": {
+      "Category": {
+        "World": "World Languages",
+        "Sign": "Sign Languages"
+      },
+      "Arabic": "Arabic",
+      "Bengali": "Bengali",
+      "English": "English",
+      "French": "French",
+      "German": "German",
+      "Hausa": "Hausa",
+      "Hindi": "Hindi",
+      "Japanese": "Japanese",
+      "Javanese": "Javanese",
+      "Korean": "Korean",
+      "Malay": "Malay",
+      "Mandarin": "Mandarin",
+      "Marathi": "Marathi",
+      "Portuguese": "Portuguese",
+      "Punjabi": "Punjabi",
+      "Russian": "Russian",
+      "Spanish": "Spanish",
+      "Swahili": "Swahili",
+      "Tamil": "Tamil",
+      "Telugu": "Telugu",
+      "Vietnamese": "Vietnamese",
+      "Wu": "Wu Chinese",
+      "ASL": "American Sign Language",
+      "BSL": "British Sign Language",
+      "Libras": "Brazilian Sign Language (Libras)"
+    }
+  },
+  "DND5E": {
+    "SPELLCASTING": {
+      "SLOTS": {
+        "spell0": "Hacking Actions",
+        "spell1": "Caliber 1",
+        "spell2": "Caliber 2",
+        "spell3": "Caliber 3",
+        "spell4": "Caliber 4",
+        "spell5": "Caliber 5"
+      }
+    }
+  }
+}

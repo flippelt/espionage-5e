@@ -1,0 +1,36 @@
+_id: espToolGunClean0
+_key: '!items!espToolGunClean0'
+name: Gun Cleaning Kit
+type: tool
+img: icons/weapons/guns/gun-purple.webp
+folder: espFolderTools00
+sort: 700000
+system:
+  description:
+    value: <p>Rods, solvents, oil and spare parts for maintaining and repairing firearms.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: guncleaning
+  quantity: 1
+  weight:
+    value: 2
+    units: lb
+  price:
+    value: 150
+    denomination: gp
+  rarity: ''
+  type:
+    value: kit
+    baseItem: guncleaning
+  ability: int
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

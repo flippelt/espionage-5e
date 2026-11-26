@@ -1,0 +1,36 @@
+_id: espVehHelicopter
+_key: '!items!espVehHelicopter'
+name: Helicopters
+type: tool
+img: icons/environment/settlement/ship.webp
+folder: espFolderVehicle
+sort: 1600000
+system:
+  description:
+    value: <p>Proficiency with helicopters.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: helicopters
+  quantity: 1
+  weight:
+    value: 0
+    units: lb
+  price:
+    value: 0
+    denomination: gp
+  rarity: ''
+  type:
+    value: vehicle
+    baseItem: helicopters
+  ability: dex
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

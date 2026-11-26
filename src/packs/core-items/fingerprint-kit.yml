@@ -1,0 +1,38 @@
+_id: espToolFingerpr0
+_key: '!items!espToolFingerpr0'
+name: Fingerprint Kit
+type: tool
+img: icons/tools/scribal/magnifying-glass.webp
+folder: espFolderTools00
+sort: 400000
+system:
+  description:
+    value: >-
+      <p>Powder, brushes and lifting tape for recovering prints from surfaces. Supplies run out
+      after a handful of uses.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: fingerprint
+  quantity: 1
+  weight:
+    value: 2
+    units: lb
+  price:
+    value: 90
+    denomination: gp
+  rarity: ''
+  type:
+    value: kit
+    baseItem: fingerprint
+  ability: int
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

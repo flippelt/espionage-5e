@@ -1,0 +1,38 @@
+_id: espToolFirstAid0
+_key: '!items!espToolFirstAid0'
+name: First Aid Kit
+type: tool
+img: icons/tools/cooking/mortar-herbs-yellow.webp
+folder: espFolderTools00
+sort: 300000
+system:
+  description:
+    value: >-
+      <p>Bandages, dressings and basic medicines. Used to stabilize a dying creature and give basic
+      medical attention.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: firstaid
+  quantity: 1
+  weight:
+    value: 3
+    units: lb
+  price:
+    value: 50
+    denomination: gp
+  rarity: ''
+  type:
+    value: kit
+    baseItem: firstaid
+  ability: wis
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

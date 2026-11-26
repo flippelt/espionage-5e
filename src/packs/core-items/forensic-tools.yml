@@ -1,0 +1,36 @@
+_id: espToolForensic0
+_key: '!items!espToolForensic0'
+name: Forensic Tools
+type: tool
+img: icons/tools/scribal/spectacles-glasses.webp
+folder: espFolderTools00
+sort: 500000
+system:
+  description:
+    value: <p>Sample bags, swabs, reagents and a camera for examining a scene and its evidence.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: forensic
+  quantity: 1
+  weight:
+    value: 5
+    units: lb
+  price:
+    value: 200
+    denomination: gp
+  rarity: ''
+  type:
+    value: kit
+    baseItem: forensic
+  ability: int
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

@@ -1,0 +1,38 @@
+_id: espToolClimbing0
+_key: '!items!espToolClimbing0'
+name: Climbing Kit
+type: tool
+img: icons/tools/hand/pry-bar-hook-steel.webp
+folder: espFolderTools00
+sort: 0
+system:
+  description:
+    value: >-
+      <p>Harness, rope, pitons and anchors for scaling walls and cliffs. Setting an anchor takes an
+      action and limits a fall to the length of slack rope.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: climbing
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 400
+    denomination: gp
+  rarity: ''
+  type:
+    value: kit
+    baseItem: climbing
+  ability: str
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0

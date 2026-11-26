@@ -1,0 +1,38 @@
+_id: espToolMechanic0
+_key: '!items!espToolMechanic0'
+name: Mechanic's Tool Kit
+type: tool
+img: icons/tools/hand/hammer-and-nail.webp
+folder: espFolderTools00
+sort: 900000
+system:
+  description:
+    value: >-
+      <p>Wrenches, sockets and power tools for building, modifying and repairing mechanical objects
+      and vehicles.</p>
+    chat: ''
+  source:
+    book: Espionage 5e
+    page: ''
+    custom: ''
+    license: OGL 1.0a
+    rules: '2014'
+  identifier: mechanic
+  quantity: 1
+  weight:
+    value: 10
+    units: lb
+  price:
+    value: 300
+    denomination: gp
+  rarity: ''
+  type:
+    value: kit
+    baseItem: mechanic
+  ability: int
+  proficient: null
+  properties: []
+effects: []
+flags: {}
+ownership:
+  default: 0
