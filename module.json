@@ -2,7 +2,7 @@
   "id": "espionage-5e",
   "title": "Espionage 5e",
   "description": "Modern espionage rules for the dnd5e system (2014 rules): spy skills, firearms and modern gear, vehicle proficiencies, dollars, and hacking as a spellcasting replacement with caliber 1–5 executable slots. Mechanics only — Open Game Content under the OGL 1.0a.",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "authors": [
     {
       "name": "flippelt",
@@ -62,7 +62,7 @@
   },
   "url": "https://github.com/flippelt/espionage-5e",
   "manifest": "https://github.com/flippelt/espionage-5e/releases/download/latest/module.json",
-  "download": "https://github.com/flippelt/espionage-5e/releases/download/v0.3.0/espionage-5e.zip",
+  "download": "https://github.com/flippelt/espionage-5e/releases/download/v0.4.0/espionage-5e.zip",
   "license": "LICENSE",
   "readme": "README.md"
 }

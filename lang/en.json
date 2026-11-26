@@ -161,6 +161,12 @@
         "spell4": "Caliber 4",
         "spell5": "Caliber 5"
       }
+    },
+    "ChallengeRating": "Difficulty",
+    "Challenge": "Difficulty",
+    "AbbreviationCR": "Diff.",
+    "Group": {
+      "Challenge": "Difficulty"
     }
   }
 }

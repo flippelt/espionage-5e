@@ -21,6 +21,7 @@ Modern espionage rules for the [dnd5e](https://github.com/foundryvtt/dnd5e) syst
 | Item rarity | Shown as caliber 1–5: common is caliber 1, legendary is caliber 5. |
 | Ranged critical hits | Two character flags under Special Traits, settable by Active Effects: `flags.dnd5e.rangedCriticalThreshold` (crit range for ranged weapon attacks, thrown included) and `flags.dnd5e.rangedCriticalDamageDice` (extra weapon dice on a ranged critical; a number or a roll-data formula such as `@scale.sharpshooter.headshot`). dnd5e's own flags don't split melee from ranged. |
 | Mission rest | A **Mission Rest** button next to Short/Long Rest (character, NPC and group sheets; the group button requests it from every member) and a **Per Mission** recovery period for item uses. It recovers everything a long rest does, plus all hit dice, all actor resources and per-mission uses. |
+| NPC difficulty | The challenge rating is shown as **Difficulty** (comparable to an agent's level) and grants XP from the Experience Points by Difficulty Rating table (difficulty 1 = 50 XP … 30 = 38,750 XP) instead of 5e's CR values. |
 
 ## Install
 
