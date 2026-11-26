@@ -141,6 +141,14 @@
       "RangedCritThresholdHint": "The lowest d20 roll that scores a critical hit with a ranged weapon attack (including thrown attacks).",
       "RangedCritDice": "Ranged Critical Damage Dice",
       "RangedCritDiceHint": "Extra weapon damage dice rolled on a critical hit with a ranged weapon attack. Accepts a number or a roll-data formula, such as @scale.sharpshooter.headshot."
+    },
+    "Rest": {
+      "Label": "Mission Rest",
+      "Result": "{name} is back at headquarters between missions, fully recovered and resupplied.",
+      "Period": {
+        "Label": "Per Mission",
+        "Abbreviation": "Mission"
+      }
     }
   },
   "DND5E": {

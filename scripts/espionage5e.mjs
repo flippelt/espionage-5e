@@ -12,6 +12,7 @@ import { configureSkills } from "./config/skills.mjs";
 import { configureEquipment } from "./config/equipment.mjs";
 import { configureWorld } from "./config/world.mjs";
 import { configureCritical } from "./rules/critical.mjs";
+import { configureMissionRest } from "./rules/mission-rest.mjs";
 import { registerSettings, enforceLegacyRules } from "./settings.mjs";
 
 Hooks.once("init", () => {
@@ -25,6 +26,7 @@ Hooks.once("init", () => {
   configureWorld();
   configureHacking();
   configureCritical();
+  configureMissionRest();
   console.log(`${MODULE_ID} | dnd5e configured for modern espionage`);
 });
 
