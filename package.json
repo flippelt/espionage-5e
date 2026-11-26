@@ -1,6 +1,6 @@
 {
   "name": "espionage-5e",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Build tooling for the espionage-5e Foundry VTT module: compile compendium packs from editable YAML sources and bundle the release zip.",
   "type": "module",

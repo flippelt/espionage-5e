@@ -135,6 +135,12 @@
       "ASL": "American Sign Language",
       "BSL": "British Sign Language",
       "Libras": "Brazilian Sign Language (Libras)"
+    },
+    "Flags": {
+      "RangedCritThreshold": "Ranged Critical Hit Threshold",
+      "RangedCritThresholdHint": "The lowest d20 roll that scores a critical hit with a ranged weapon attack (including thrown attacks).",
+      "RangedCritDice": "Ranged Critical Damage Dice",
+      "RangedCritDiceHint": "Extra weapon damage dice rolled on a critical hit with a ranged weapon attack. Accepts a number or a roll-data formula, such as @scale.sharpshooter.headshot."
     }
   },
   "DND5E": {

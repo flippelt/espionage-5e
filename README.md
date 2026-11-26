@@ -19,6 +19,7 @@ Modern espionage rules for the [dnd5e](https://github.com/foundryvtt/dnd5e) syst
 | Currency | US dollars. The internal key stays `gp`, which dnd5e requires. |
 | Languages | Real-world languages and sign languages. |
 | Item rarity | Shown as caliber 1–5: common is caliber 1, legendary is caliber 5. |
+| Ranged critical hits | Two character flags under Special Traits, settable by Active Effects: `flags.dnd5e.rangedCriticalThreshold` (crit range for ranged weapon attacks, thrown included) and `flags.dnd5e.rangedCriticalDamageDice` (extra weapon dice on a ranged critical; a number or a roll-data formula such as `@scale.sharpshooter.headshot`). dnd5e's own flags don't split melee from ranged. |
 
 ## Install
 
